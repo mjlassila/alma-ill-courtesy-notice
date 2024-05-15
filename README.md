@@ -12,4 +12,4 @@ You likely want to run this script using cron. For an example, to run the script
 
 Your GetLendingDueDatesAPI -report should look like following:
 
-![Alma Analytics Report](https://github.com/mjlassila/alma-ill-courtesy-notice/raw/master/analytics-report-screenshot.png "GetLendingDueDatesAPI report in Alma Analytics")
+![Alma Analytics Report](https://github.com/mjlassila/alma-ill-courtesy-notice/raw/main/analytics-report-screenshot.png "GetLendingDueDatesAPI report in Alma Analytics")
