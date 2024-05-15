@@ -6,7 +6,9 @@ It is advisable to create a Python virtualenv for running the script.
 
 You likely want to run this script using cron. For an example, to run the script every monday at 7 o'clock, add crontab entry
 
+```
 0 7 * * 1 cd directory-of-your-script && directory-of-your-script/bin/python3 send-ill-courtesy-notice.py > send-ill-courtesy-notice.log 2>&1
+```
 
 Your GetLendingDueDatesAPI -report should look like following:
 
