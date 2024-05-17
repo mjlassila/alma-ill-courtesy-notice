@@ -63,11 +63,14 @@ def get_data_from_analytics(path, apikey, limit):
     except requests.exceptions.HTTPError as errh: 
         print("HTTP Error") 
         sys.exit(1)
-    except requests.exceptions.ReadTimeout as errrt: 
+    except requests.exceptions.ReadTimeout as errrt:
+        print("Network timeout") 
         sys.exit(1) 
-    except requests.exceptions.ConnectionError as conerr: 
+    except requests.exceptions.ConnectionError as conerr:
+        print("Connection Error")
         sys.exit(1) 
-    except requests.exceptions.RequestException as errex: 
+    except requests.exceptions.RequestException as errex:
+        print("Request execption")
         sys.exit(1) 
 
     if response.status_code != 200:
