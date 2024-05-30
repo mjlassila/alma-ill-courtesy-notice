@@ -124,6 +124,7 @@ Kaukopalvelu / Interlibrary Services
         
         }
     )
+    print("Sent notification email to " + email_address)
 
 # Retrieve all RS partners from Alma
 partners = alma.partners.get(all_records = True)
